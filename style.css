@@ -1,0 +1,41 @@
+.page {
+  margin: 0 auto;
+  width: 1140px;
+  height: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page__first-pic {
+  background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 555px;
+  height: 296px;
+  float: left;
+}
+.page__second-pic {
+  background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  float: right;
+  width: 555px;
+  height: 296px;
+}
+.text1,
+.text2 img {
+  margin: 75px 271px 74px 35px;
+}
+.pic1 img {
+  margin: 22px 30.27px 15.08px 234px;
+}
+.pic2 img {
+  margin: 36px 25.85px 52.26px 260px;
+}
+.pic1 {
+  position: relative;
+  top: -350px;
+}
+.pic2 {
+  position: relative;
+  top: -300px;
+  left: 40px;
+}
